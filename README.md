@@ -1,4 +1,23 @@
-# policyAlert
+# policyAlert Arquitectura
+Esta prueba fue hecha con arquitectura por capas(DDD):
+- Interface(API)
+- Aplicacion: servicios
+- Dominio: entities
+- INfraestructura: TypeORM
+
+# policyAlert Patrones de diseño
+- Dependency injection (IoC)
+- Repository
+- DTO
+- Validation/Guard clauses
+- Adapter
+- Factory
+- CQS(Command-Query separation)
+- Mapper
+- configuration as a module
+- Exception handling
+
+
 
 # Clonar el repositorio
 git clone <url repo>
