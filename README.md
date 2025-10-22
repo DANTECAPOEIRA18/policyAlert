@@ -19,6 +19,9 @@ Esta prueba fue hecha con arquitectura por capas(DDD):
 
 
 
+# Version NodeJs
+NodeJs = 22
+
 # Clonar el repositorio
 git clone <url repo>
 cd policyalert
