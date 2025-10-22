@@ -9,7 +9,7 @@ import { ParametersModule } from "./parameters/paramters.module";
             useFactory: () => ({
                 type: 'postgres',
                 host: process.env.DB_HOST,
-                port: 5132,
+                port: 5432,
                 username: process.env.DB_USER,
                 password: process.env.DB_PASS,
                 database: process.env.DB_NAME,
