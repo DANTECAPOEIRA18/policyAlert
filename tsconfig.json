@@ -1,29 +1,28 @@
 {
-    "compilerOptions": {
-        "module": "commonjs",
-        "target": "es2021",
-        "outDir": "./dist",
-        "rootDir": "./src",
-        "removeComments": true,
-        "sourceMap": true,
-        "strict": true,
-        "noImplicitAny": true,
-        "strictNullChecks": true,
-        "strictBindCallApply": true,
-        "forceConsistentCasingInFileNames": true,
-        "moduleResolution": "node",
-        "esModuleInterop": true,
-        "allowSyntheticDefaultImports": true,
-        "resolveJsonModule": true,
-        "experimentalDecorators": true,
-        "emitDecoratorMetadata": true,
-        "baseUrl": "./",
-        "paths": {
-            "@app/*": ["src/*"]
-        },
-        // "incremental": true,
-        "skipLibCheck": true
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2021",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "removeComments": true,
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictBindCallApply": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "baseUrl": "./",
+    "paths": {
+      "@app/*": ["src/*"]
     },
-    "include": ["src/**/*.ts"],
-    "exclude": ["node-modules", "dist", "test"]
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist", "test", "**/*.spec.ts"]
 }
