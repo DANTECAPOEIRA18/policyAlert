@@ -30,7 +30,11 @@ npm install
 cp .env.example .env
 
 # Levantar con docker
-docker compose up --build
+docker compose build
+docker compose up -d
+
+# Revisa Logs del contenedor
+docker compose logs -f api
 
 # Para correr test
 npm run test
